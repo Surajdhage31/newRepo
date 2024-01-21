@@ -14,49 +14,21 @@ public class Login {
 					int pass = 1234;
 					if ( (c.equalsIgnoreCase(user)) && (pass == d ))
 					{
-						System.out.println("login Successfull");
+						SuccessfullLogin g = new SuccessfullLogin();
+						g.Book();
 						
-						System.out.println("\n Enter you'r choice");
-						
-						System.out.println(" 1. Book Ticket");
-						System.out.println("2. cancal Book Ticket");
-						//Scanner put = new Scanner (System.in);
-						int book = a.nextInt();
-						switch(book)
-						{
-						case 1 :
-						{
-							System.out.println("1.pune to mumbai Rs 200");
-							System.out.println("2.mumbai to pune Rs 200");
-						//	Scanner yash = new Scanner (System.in); object for 
-							  int sham = a.nextInt();
-							  if(sham <=1)
-							  {
-								  System.out.println("pune_to_mumbai");
-								 System.out.println("please Paid ticket price");
-								  int b = a.nextInt();
-								  System.out.println("paid "+b);
-							  }
-							  else
-							  {
-								  System.out.println("mumbai_to_pune");
-							  }
-							System.out.println("Ticket booked ");
-							break ;
-						}
-						case 2 :
-						{
-							System.out.println("book ticket canceled");
-						}
-						}
 					}
 					else
 					{
 						System.out.println(" Incorrect credential");
+						
 					}
+					
+					}
+					
 				}
 				
 				}
 		
-			}
+			
      
