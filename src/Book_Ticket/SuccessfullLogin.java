@@ -1,5 +1,5 @@
 package Book_Ticket;
-import java.util.*;
+import java.util.Scanner;
 public class SuccessfullLogin {
 	public int Book () {
 	System.out.println("login Successfull");

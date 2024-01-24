@@ -2,18 +2,16 @@ package Practices;
 
 public class variable_Length {
 	public static void main(String[] args) {
-		value(12,13,22);
+		
 	}
 
-	private static void value(int i, int j, int k) {
-		
-		
+	
 	}
 
 	class Var {
-	public static void value(int...num ) //variable lenth argument no limit of value
+	public static void value(int...num ) //variable length argument no limit of value
 	{
-	int i;
+	//int i;
 	double sum =0 ,avg ;
 	for(int a:num)
 	{
@@ -28,4 +26,4 @@ public class variable_Length {
 	
 	}
 	}
-}
+
