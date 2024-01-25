@@ -4,7 +4,8 @@ public class Login {
 // if u want a bus ticket 
 		public static void main(String[] args) {
 				  try (Scanner a = new Scanner(System.in)) {
-					System.out.println("Welcome , pleses login your account");
+					  System.out.println("Welcome To MSRTC ");
+					System.out.println(" pleses login your account");
 					System.out.println("enter your username");
 					String c = a.next();
 					System.out.println("Enter your password");
@@ -16,7 +17,7 @@ public class Login {
 					{
 						SuccessfullLogin g = new SuccessfullLogin();
 						g.Book();
-						
+						//time ,paid ,sleeper ,normal,bus 
 					}
 					else
 					{
