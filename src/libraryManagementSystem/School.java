@@ -1,13 +1,13 @@
 package libraryManagementSystem;
 import java.util.Scanner;
-public class tester {
+public class School {
 	static void Student () { // Student is the method name 
 		System.out.println("Enter the name ");
 		Scanner a = new Scanner(System.in); // the String value is assign in a 
 		String b = a.next();
 		System.out.println("Enter the id number of student");
 		int d = a.nextInt();
-		System.out.println("Enter  number of book are befor Issue ");
+		System.out.println("Enter  number of book are before Issue ");
 		int  c = a.nextInt();
 		if (c<3) // more than 3 book is are not issue
 		{

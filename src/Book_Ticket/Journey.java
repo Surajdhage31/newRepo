@@ -22,12 +22,14 @@ public class Journey {
 			  switch (red)
 			  {
 			  case 1 :
-			  {
-				  System.out.println("please Paid ticket price/fee Rs:400");
+			  {    System.out.println("Avalible Seats : 30");
+				  System.out.println("\nplease Paid ticket price/fee Rs:400");
 				  int money= a.nextInt();
 				  if (money == 400)
 				  {
 				  System.out.println("paid :" +money);
+				  System.out.println("your seat number is:1101");
+				  System.out.println("\nTicket booked ");
 				  }
 				  else
 				  {
@@ -36,13 +38,16 @@ public class Journey {
                  break ;
 				  }
 			  case 2 :
-			  {
-				  System.out.println("please Paid ticket price/fee Rs:300 ");
+			  {   System.out.println("Avalible Seats : 30");
+				  System.out.println("\nplease Paid ticket price/fee Rs:300 ");
 				  int money= a.nextInt();
 				  
 				  if (money == 300)
 				  {
 				  System.out.println("paid :" +money);
+				  System.out.println("\nyour seat number is:1201");
+					System.out.println("\nTicket booked ");
+
 				  }
 				  else
 				  {
@@ -51,24 +56,28 @@ public class Journey {
 				  break ;
 			  }
 			  case 3:
-			  {
-				  System.out.println("please Paid ticket price/fee Rs:210 ");
+			  {  System.out.println("Avalible Seats : 30");
+				  System.out.println("\nplease Paid ticket price/fee Rs:210 ");
 				  int money= a.nextInt();
 				  
 				  if (money == 210)
 				  {
 				  System.out.println("paid :" +money);
+				  System.out.println("your seat number is:1301");
+					System.out.println("Ticket booked ");
+
 				  }
 				  else
 				  {
 					  System.out.println("not enough fund");
 				  }
 				  System.out.println("paid :" +money);
+					System.out.println("Ticket booked ");
+
 				  
 			  }
 			  }
 				 
-			System.out.println("Ticket booked ");
 			
 			return 0;
 		}

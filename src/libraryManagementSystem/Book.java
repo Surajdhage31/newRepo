@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Book {
 
 	public static void main(String[] args) {
+		
+	}
+	static void book () {
 	    System.out.println("Select who want to book Issue");
 	    System.out.println("1.Student \n2.Teacher");
 	    Scanner page = new Scanner(System.in);
@@ -11,7 +14,7 @@ public class Book {
 	    {
 	    case 1 :
 	    {
-		tester s = new tester();
+		School s = new School();
 		s.Student(); // the use of method 
 		break ;
 		

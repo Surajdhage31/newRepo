@@ -1,7 +1,8 @@
 package Book_Ticket;
 import java.util.Scanner;
 public class SuccessfullLogin {
-	public int Book () {
+	
+	static void Book () {
 	System.out.println("login Successfull");
 	System.out.println("\n Enter you'r choice");
 	
@@ -21,7 +22,6 @@ public class SuccessfullLogin {
 		System.out.println("book ticket canceled");
 	}
 }
-return book;
 	}
  
 
